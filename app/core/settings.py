@@ -121,4 +121,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 try:
     from .local_settings import *
 except ImportError:
-    print('Unable to load local_settings.py:')
+    print('Unable to load local_settings.py')
