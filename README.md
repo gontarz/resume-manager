@@ -1,6 +1,6 @@
 # CV manger
 
-###installation
+### installation
 docker:
 - docker-compose build
 - docker-compose up
@@ -9,13 +9,13 @@ regular:
 - pip install -r requirements.txt
 - add env variables (db, allowed hosts, )
 
-###usage
+### usage
 - keep your resumes and recruitment processes in one place
 
-###common info
+### common info
 - use env variables to specify settings 
 
-###todo
+### todo
 - phone validation
 - time zones
 - production docker-compose.yml
